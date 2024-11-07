@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.input input{
+    width: 200%;
+    padding: 15px;
+    
+}
+.input1 input{
+    padding: 30px;
+    width: 200%;
+    margin-bottom: 10px;
+}
+
+.main{
+    display: block;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -12%;
+    
+}
+.main.active{
+display: none;
+}
+.input_type textarea{
+    width: 160%;
+    padding: 15px;
+    
+    
+}
+.input_type1 textarea{
+    width: 160%;
+    padding: 25px;
+    
+}
+.content2{
+    margin-top: 15px;
+}
+.add button{
+    background: black;
+    color: white;
+    margin-left: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.add button:hover{
+    background-color: red;
+}
+.add1 #add{
+    margin-top: 10px;
+    margin-left: 80%;
+    background: green;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.add1 #add:hover{
+    background-color: red;
+}
+.generate button{
+    
+    margin-left: 50%;
+    background: red;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.generate .button{
+display: block;
+}
+
+.generate .button.active{
+    display: none;
+}
+.main1{
+    display: grid;
+
+}
+.main1 input{
+    width: 150%;
+    padding: 20px;
+}
+.resume1{
+    background:green;
+    width: 650px;
+    height: 220vh;
+    margin-top: 40px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 6%;
+    margin-top: 14%;
+
+}
+.resume1{
+    text-align: center;
+}
+.name h1{
+    font-size: 30px;
+    margin-left:5% ;
+    margin-top: 20px;
+}
+.phone h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.links a{
+    color: rgba(255, 0, 13, 0.425);
+    font-size: 15px;
+    
+}
+.links p{
+    margin-top: 20px;
+}
+.resume{
+    display: flex;
+    justify-content: space-between;
+}
+.name h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.para h2{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+.objective{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 300px;
+}
+
+.obpara p{
+    font-size: 20px;
+}
+.work{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    
+}
+.para1 h2{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+.list ul li{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.print button{
+    background: red;
+    padding: 20px;
+    border-radius: 10px;
+   margin-left: 30%;
+   cursor: pointer;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.print .print1{
+display: block;
+}
+.print .print1.active{
+    display: none;
+}
+.print button:hover{
+    background-color: aqua;
+    color: black;
+}
+.resume{
+    display: none;
+}
+.resume.active{
+    display: block;
+    display: flex;
+}
+.photo input{
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.349);
+    
+}
+
+
+.main2 a{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    
+    
+}
+.two svg{
+    margin-left: 450px;
+}
+
+
+section{
+    width: 100%;
+    height: 650px;
+    background: url("https://assets-global.website-files.com/63062129119620a44791a2eb/64a838ad355857e1b12ed62f_group-decision-making.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 139, 0.562)
+}
+.para3 h1{
+    text-transform: uppercase;
+    color: greenyellow;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.one{
+    display: flex;
+    padding: 20px;
+}
+.builder{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 30px;
+    font-size: 30px;   
+}
+
+.photo3{
+    width: 500px;
+    height: 540px;
+}
+.content4{
+    display: flex;
+    justify-content: space-around;
+}
+.para5 h1{
+    color: white;
+    font-size: 60px;
+}
+.para5 h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.result img{
+    width: 440px;
+    height: 540px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.create{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.design{
+    background: rgba(0, 0, 0, 0.205);
+    height: 100%;
+    
+
+}
+
+.para6 h1{
+    margin-top: 20px;
+    font-size: 55px;
+    font-family: 'Honk', system-ui;
+    color: red;
+}
+.para6 h3{
+    font-size: 35px;
+    font-family: 'Tilt Prism', sans-serif;
+
+}
+.para6 h4{
+    color: rgba(0, 0, 0, 0.384);
+    font-size: 25px;
+    font-family: 'fantasy';
+}
+.create1 h1{
+    text-align: center;
+    margin-top: 13%;
+    font-size: 70px;
+   color: blueviolet;
+}
+.note{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    
+}
+.note1 svg{
+    margin-left: 100px;
+}
+.note1 h1{
+    font-family: 'fantasy';
+    color: green;
+}
+.note2 svg{
+    margin-left: 100px;
+}
+.note1 h3{
+    color: rgba(0, 0, 0, 0.384);
+    text-transform: uppercase;
+}
+.note2 h3{
+    color: rgba(0, 0, 0, 0.384);
+    text-transform: uppercase;
+}
+.note2 h1{
+    text-transform:uppercase ;
+    color: rgba(0, 0, 255, 0.507);
+}
+.addcontent{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.addcontent h3{
+   color:  rgba(0, 0, 0, 0.384);
+   text-transform: uppercase;
+}
+.addcontent1 h3{
+    color:  rgba(0, 0, 0, 0.384);;
+    text-transform: uppercase;
+}
+.addcontent1 h1{
+    font-family: 'fantasy';
+    color: orange;
+}
+.addnote svg{
+    margin-left: 100px;
+}
+.addnote h1{
+    font-family: 'fantasy';
+    color: red;
+}
+.addcontent1 svg{
+    margin-left: 50px;
+}
+.out{
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: transparent;
+    border-radius: 10px;
+    
+}
+.out h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: red;
+}
+.out label{
+    text-transform: uppercase;
+
+}
+.out input{
+    padding: 10px;
+    width: 350px;
+    margin-left: 7px;
+    border: none;
+}
+.login{
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.login:hover{
+    background: red;
+    color: white;
+}
+.out1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_1600%2Cc_limit/BlackForest-Germany-GettyImages-147180370.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.para5 a{
+    text-decoration: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background: red;
+    padding: 20px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    border-radius: 20px;
+
+}
+.para5 a:hover{
+    background: black;
+    color: white;
+}
+.out button{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 35%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.out button:hover{
+    background: red;
+    color: white;
+}
+.out p{
+    color: white;
+    margin-left: 20px;
+}
+.out a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+}
+.out2{
+    width: 100%;
+    height: 100%;
+  background-image: url("https://cdn.britannica.com/95/136995-050-6209F94F/rainforest-Malaysia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  position: absolute;
+  
+}
+.out3{
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+}
+.out3 h2{
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.out3 label{
+    text-transform: uppercase;
+}
+.out3 input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    width: 300px;
+    background: black;
+    color: white;
+
+}
+.out3 button{
+    margin-left: 20%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+.out3 button:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.skills1 button{
+    background: black;
+    color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.hard textarea{
+    width: 160%;
+    padding: 25px;
+    display: grid;
+    
+}
+.mycontent1{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+}
+.mycontent svg{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mycontent2{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mycontent2 h2{
+    color: white;
+    margin-top: -2%;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.message h1{
+    margin-left: 700px;
+    color: white;
+}
+.message h2{
+    margin-left: 700px;
+    font-size: 20px;
+    color: white;
+}
+.basheer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 700px;
+}
+.message1{
+    display: flex;
+}
+.basheer1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+.basheer2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
